@@ -7,12 +7,10 @@ It is a best practice to handle everything as a secret throughout this process s
 ## Usage 
 
 ```hcl
-module "secret_key_value_contentful_access_token" {
-  source          = "app.terraform.io/DDM/secret-key-value/google"
-  version         = "1.0.1"
-  service_account = "{SERVICE_ACCOUNT_EMAIL}"
-  secret_key      = "{SECRET_KEY_NAME}}"
-  secret_value    = "{SECRET_VALUE}"
+module "ddm-secret-key-value" {
+  source  = "deseretdigital/ddm-secret-key-value/google"
+  version = "1.0.0"
+  # insert the 3 required variables here
 }
 ```
 
