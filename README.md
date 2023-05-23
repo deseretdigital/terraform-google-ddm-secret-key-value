@@ -18,7 +18,7 @@ module "ddm-secret-key-value" {
 
 | Name | Description | Example | Default |
 | ----- | ----- | ----- | ----- |
-| `service_account` | The service account that will need access to the key. In the case of compute instances, it will look like {numbers}-compute@developer.gserviceaccount.com | `{NUMBERS}-compute@developer.gserviceaccount.com` | *none* |
+| `service_account` | The service account that will need access to the key. | `{NUMBERS}-compute@developer.gserviceaccount.com` | *none* |
 | `secret_key` | The key for the secret. | "treasure-location" | *none* |
 | `secret_value` | The value for the secret. | "treasure map directions" | *none* |
 
